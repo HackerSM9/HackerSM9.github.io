@@ -47,3 +47,12 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+.about {
+text-align: center;
+}
+.about_hr {
+color: purple;
+width: 25px;
+height: 3px;
+}

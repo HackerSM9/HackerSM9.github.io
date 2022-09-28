@@ -52,7 +52,8 @@
 text-align: center;
 }
 .about_hr {
-color: purple;
+background-color: purple;
 width: 25px;
-height: 3px;
+height: 2px;
+border-radius: 10px
 }

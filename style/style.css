@@ -52,9 +52,9 @@
 text-align: center;
 }
 .about_hr {
-background-color: red;
-border: 3px solid red;
-width: 30px;
+background-color: #8800c7;
+border: 3px solid #8800c7;
+width: 60px;
 height: 2px;
 border-radius: 10px
 }

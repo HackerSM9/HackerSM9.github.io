@@ -48,7 +48,7 @@
   .sidenav a {font-size: 18px;}
 }
 
-.about {
+.about,h1 {
 text-align: center;
 }
 .about_hr {

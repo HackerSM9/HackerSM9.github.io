@@ -65,3 +65,13 @@ text-decoration: none;
 border-radius: 93px;
 height: 230px;
 }
+.skills {
+background-color: #8800c7;
+}
+.skills_hr {
+background-color: #fff;
+border: 3px solid #fff;
+width: 60px;
+height: 2px;
+border-radius: 10px
+}

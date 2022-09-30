@@ -83,3 +83,12 @@ width: 60px;
 height: 2px;
 border-radius: 10px
 }
+#android {
+accent-color: lightgreen;
+}
+#html5 {
+accent-color: orange;
+}
+#py {
+accent-color: darkblue;
+}

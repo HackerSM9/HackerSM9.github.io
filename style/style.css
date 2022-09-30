@@ -40,6 +40,7 @@
 #main {
   transition: margin-left .5s;
   padding: 20px;
+  width: 100%;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -72,6 +73,10 @@ height: 230px;
 .skills {
 background-color: #8800c7;
 width: 100%;
+padding-top: 5%;
+padding-bottom: 5%;
+padding-left: 5%;
+padding-right: 5%;
 }
 .skills_hr {
 background-color: #fff;

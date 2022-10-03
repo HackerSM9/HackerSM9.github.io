@@ -71,9 +71,7 @@ height: 230px;
 }
 .skills {
 background-color: #8800c7;
-padding-top: 5%;
-padding-bottom: 5%;
-padding-left: 5%;
+padding: 7em 0;
 }
 .skills_hr {
 background-color: #fff;

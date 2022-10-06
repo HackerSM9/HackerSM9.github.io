@@ -49,6 +49,10 @@ width: 60%;
 padding:10px;
 border-radius:30px;
 }
+textarea {
+padding:10px;
+border-radius:30px;
+}
 .sub_but {
 color: black;
 background-color: #17D602;

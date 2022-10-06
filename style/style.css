@@ -18,7 +18,8 @@ border-radius: 10px
 text-decoration: none;
 }
 .about_img {
-border-radius: 93px;
+border-radius: 193px;
+border-color: #8800c7;
 height: 230px;
 }
 .skills {

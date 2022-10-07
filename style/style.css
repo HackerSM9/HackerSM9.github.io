@@ -62,6 +62,6 @@ border-radius:30px;
 .fa, .fab {
 display: flex;
 color: #8800c7;
-position: relative
+position: relative;
 text-decoration: none;
 }

@@ -8,8 +8,8 @@ color: white;
 text-align: center;
 }
 .about_hr {
-background-color: #8800c7;
-border: 3px solid #8800c7;
+background-color: #6107e8;
+border: 3px solid #6107e8;
 width: 80px;
 height: 2px;
 border-radius: 10px
@@ -19,11 +19,11 @@ text-decoration: none;
 }
 .about_img {
 border-radius: 193px;
-border-color: #8800c7;
+border-color: #6107e8;
 height: 230px;
 }
 .skills {
-background-color: #8800c7;
+background-color: #6107e8;
 margin: 0px;
 padding: 5%;
 }
@@ -61,7 +61,7 @@ border-radius:30px;
 }
 .fa, .fab {
 display: flex;
-color: #8800c7;
+color: #6107e8;
 font-size: 29px;
 position: relative;
 text-decoration: none;

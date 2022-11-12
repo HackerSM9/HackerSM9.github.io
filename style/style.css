@@ -13,6 +13,7 @@ color: white;
 text-align: center;
 }
 .about_hr {
+text-align: center;
 background-color: #5008bd;
 border: 3px solid #5008bd;
 width: 80px;
@@ -33,6 +34,7 @@ margin: 0px;
 padding: 5%;
 }
 .skills_hr {
+text-align: center;
 background-color: #fff;
 border: 3px solid #fff;
 width: 80px;

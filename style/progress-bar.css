@@ -41,7 +41,7 @@
   stroke-width: 10;
   stroke-dasharray: 440;
   stroke-dashoffset: 440;
-  stroke: hsl(0deg, 0%, 100%);
+  stroke: lightgrey;
   stroke-linecap: round;
   transform: translate(5px, 5px);
 }

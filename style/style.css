@@ -1,4 +1,5 @@
 @import "nav-bar.css";
+@import "../dist/loading-bar.css";
 @import "../Fonts/fonts.css";
 
 * {

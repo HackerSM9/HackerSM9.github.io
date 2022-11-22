@@ -1,5 +1,5 @@
 @import "nav-bar.css";
-@import "progress-bar.css";
+@import "progress-bar.scss";
 @import "../Fonts/fonts.css";
 @import "../dist/loading-bar.css";
 

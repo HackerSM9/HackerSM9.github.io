@@ -1,6 +1,7 @@
 @import "nav-bar.css";
-@import "../dist/loading-bar.css";
+@import "progress-bar.css";
 @import "../Fonts/fonts.css";
+@import "../dist/loading-bar.css";
 
 * {
 margin: 0px;

@@ -1,4 +1,4 @@
-<svg class="progressbar__svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="progressbar__svg">
 <style>
 .progressbar__svg {
   position: relative;

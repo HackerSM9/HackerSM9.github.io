@@ -1,3 +1,4 @@
+<svg class="progressbar__svg">
 <style>
 .progressbar__svg {
   position: relative;
@@ -28,6 +29,5 @@
   }
 }
 </style>
-<svg class="progressbar__svg">
 <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-html shadow-html"> </circle>
 </svg>

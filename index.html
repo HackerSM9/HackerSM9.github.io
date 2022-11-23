@@ -48,6 +48,34 @@ font-family: "Kumar One Outline", cursive;
 h3.sub_skills {
 font-family: "Rampart One", cursive;
 }
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0.5rem;
+  border-radius: 50%;
+  background: #FFCDB2;
+  overflow: hidden;
+}
+.circle.per-25 {
+  background-image: conic-gradient(#B5838D 86%, #FFCDB2 0);
+}
+.circle .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 115px;
+  height: 115px;
+  background: #000;
+  border-radius: 50%;
+  font-size: 1.85em;
+  font-weight: 30;
+  color: rgba(255, 255, 255, 0.75);
+}
 </style>
 </head>
 <body>
@@ -98,12 +126,9 @@ font-family: "Rampart One", cursive;
 <label for="android" class="white_t"><span class="fa-brands fa-android"><font class="sofia"> Android Development:</font></span></label><div style="height:35px;width:65%;" data-preset="rainbow" stroke-lincap="round" class="ldBar label"data-value="90"></div>
 
    <label for="html5" class="white_t"><span class="fa-brands fa-html5"><font class="sofia"> Html:</font></span></label>
-		<div class="progressbar">
-			<svg class="progressbar__svg">
-				<circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-html shadow-html"> </circle>
-			</svg>
-			<span class="progressbar__text shadow-html">HTML</span>
-		</div>
+		<div class="circle per-25">
+    <div class="inner">86%</div>
+  </div>
    <label for="css3" class="white_t"><span class="fa-brands fa-css3-alt"><font class="sofia"> Css:</font></span></label>
       <div style="height:35px;width:65%;"
   data-preset="rainbow"

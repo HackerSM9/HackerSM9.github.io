@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="progressbar__svg">
 <style>
 .progressbar__svg {
-  position: relative;
+  justify-align: center;
+  text-align: center;
   width: 100%;
   height: 100%;
 }
@@ -12,7 +13,7 @@
   stroke-width: 10;
   stroke-dasharray: 440;
   stroke-dashoffset: 440;
-  stroke: lightgrey;
+  stroke: white;
   stroke-linecap: round;
   transform: translate(5px, 5px);
 }

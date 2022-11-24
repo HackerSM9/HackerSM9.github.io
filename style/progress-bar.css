@@ -24,7 +24,7 @@
   color: rgba(255, 255, 255, 0.75);
 }
 .circle.and_dev {
-  background-image: conic-gradient(#B5838D 96%, #5008bd 0);
+  background-image: conic-gradient(#90EE90 96%, #5008bd 0);
 }
 .circle.web_dev {
   background-image: conic-gradient(#B5838D 80%, #5008bd 0);
@@ -36,5 +36,5 @@
   background-image: conic-gradient(#B5838D 46%, #5008bd 0);
 }
 .circle.python {
-  background-image: conic-gradient(#B5838D 66%, #5008bd 0);
+  background-image: conic-gradient(#000099 66%, #5008bd 0);
 }

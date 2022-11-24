@@ -48,35 +48,6 @@ font-family: "Kumar One Outline", cursive;
 h3.sub_skills {
 font-family: "Rampart One", cursive;
 }
-.circle {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  margin: 0.5rem;
-  border-radius: 50%;
-  stroke-lincap: round;
-  background: #FFCDB2;
-  overflow: hidden;
-}
-.circle.per-25 {
-  background-image: conic-gradient(#B5838D 86%, #5008bd 0);
-}
-.circle .inner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 115px;
-  height: 115px;
-  background: #5008bd;
-  border-radius: 50%;
-  font-size: 1.85em;
-  font-weight: 30;
-  color: rgba(255, 255, 255, 0.75);
-}
 </style>
 </head>
 <body>
@@ -125,24 +96,23 @@ font-family: "Rampart One", cursive;
 <center><hr class="skills_hr"></center>
 <br><pre>
 <label for="android" class="white_t"><span class="fa-brands fa-android"><font class="sofia"> Android Development:</font></span></label><div style="height:35px;width:65%;" data-preset="rainbow" stroke-lincap="round" class="ldBar label"data-value="90"></div>
+    <div class="circle and_dev">
+        <div class="inner">95%</div>
+    </div>
 
 <label for="html5" class="white_t"><span class="fa-brands fa-html5"><font class="sofia"> Html:</font></span></label>
     <div class="circle html">
         <div class="inner">78%</div>
     </div>
 <label for="css3" class="white_t"><span class="fa-brands fa-css3-alt"><font class="sofia"> Css:</font></span></label>
-      <div style="height:35px;width:65%;"
-  data-preset="rainbow"
-  class="ldBar label"
-  stroke-lincap="round"
-  data-value="63"></div>
+    <div class="circle css">
+        <div class="inner">48%</div>
+    </div>
 
-   <label for="py" class="white_t"><span class="fa-brands fa-python"><font class="sofia"> Python:</font></span></label>
-      <div style="height:35px;width:65%;"
-  data-preset="rainbow"
-  stroke-lincap="round"
-  class="ldBar label"
-  data-value="40"></div>
+<label for="py" class="white_t"><span class="fa-brands fa-python"><font class="sofia"> Python:</font></span></label>
+    <div class="circle python">
+        <div class="inner">66%</div>
+    </div>
 </pre>
 <h3 class="sub_skills">OS in use ↓</h3>
 <embed src="/SVG/OS/IOS.svg">

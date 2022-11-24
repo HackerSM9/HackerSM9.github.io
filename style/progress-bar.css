@@ -27,13 +27,13 @@
   background-image: conic-gradient(#90EE90 96%, #5008bd 0);
 }
 .circle.web_dev {
-  background-image: conic-gradient(#B5838D 80%, #5008bd 0);
+  background-image: conic-gradient(#f28def 80%, #5008bd 0);
 }
 .circle.html {
   background-image: conic-gradient(#f06529 78%, #5008bd 0);
 }
 .circle.css {
-  background-image: conic-gradient(#B5838D 46%, #5008bd 0);
+  background-image: conic-gradient(#0066ff 46%, #5008bd 0);
 }
 .circle.python {
   background-image: conic-gradient(#000099 66%, #5008bd 0);

@@ -1,10 +1,7 @@
-$color_1: white;
-$color_2: black;
-$color_3: #5008bd;
+$color_1: #fff;
+$color_2: #000;
 $default-color: #5008bd;
-$background-color_2: #fff;
-$background-color_3: #17D602;
-$border-color_1: #5008bd;
+$bg-color_1: #17D602;
 
 @import "nav-bar.css";
 @import "progress-bar.css";
@@ -37,7 +34,7 @@ h1 {
 }
 .about_img {
 	border-radius: 193px;
-	border-color: $border-color_1;
+	border-color: $default-color;
 	height: 230px;
 }
 .skills {
@@ -47,7 +44,7 @@ h1 {
 }
 .skills_hr {
 	text-align: center;
-	background-color: $background-color_2;
+	background-color: $color_1;
 	border: 3px solid #fff;
 	width: 80px;
 	height: 2px;
@@ -73,14 +70,14 @@ textarea {
 }
 .sub_but {
 	color: $color_2;
-	background-color: $background-color_3;
+	background-color: $bg-color_1;
 	width: 100%;
 	padding: 10px;
 	border-radius: 30px;
 }
 .fa {
 	display: flex;
-	color: $color_3;
+	color: $default-color;
 	font-size: 29px;
 	position: relative;
 	text-align: center;
@@ -88,7 +85,7 @@ textarea {
 }
 .fab {
 	display: flex;
-	color: $color_3;
+	color: $default-color;
 	font-size: 29px;
 	position: relative;
 	text-align: center;

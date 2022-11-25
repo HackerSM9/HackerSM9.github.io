@@ -2,6 +2,7 @@
 @import "progress-bar.css";
 @import "../Fonts/fonts.css";
 @import "../dist/loading-bar.css";
+@import "../free-icons/css/latest-icon.css";
 
 * {
 margin: 0px;

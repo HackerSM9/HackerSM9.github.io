@@ -1,0 +1,20 @@
+name: WakaTime status update
+
+on:
+  schedule:
+    # Runs at 12 am  '0 0 * * *'  UTC
+    - cron: "1 0 * * *"
+
+jobs:
+  update-readme:
+    name: Update the WakaTime Stat
+    runs-on: ubuntu-latest
+    steps:
+      - uses: avinal/Profile-Readme-WakaTime@master
+        with:
+          WAKATIME_API_KEY: waka_986a8e21-2809-4fa8-8316-8b31bd2477c5
+          GITHUB_TOKEN: ${{ github.token }}
+          BRANCH: "master"
+          COMMIT_MSG: "Automated Coding Activity Update :alien:"
+          # Range of fetching data - default is "last_7_days". See https://wakatime.com/developers#stats for more options
+          STATS_RANGE: "last_7_days"

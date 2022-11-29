@@ -13,7 +13,7 @@ jobs:
       - uses: avinal/Profile-Readme-WakaTime@master
         with:
           WAKATIME_API_KEY: waka_986a8e21-2809-4fa8-8316-8b31bd2477c5
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: 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
           BRANCH: "master"
           COMMIT_MSG: "Automated Coding Activity Update :alien:"
           # Range of fetching data - default is "last_7_days". See https://wakatime.com/developers#stats for more options

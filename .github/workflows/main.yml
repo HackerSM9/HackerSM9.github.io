@@ -1,4 +1,4 @@
-name: WakaTime status update
+name: WakaTime - Readme
 
 on:
   schedule:
@@ -10,7 +10,7 @@ jobs:
     name: Update the WakaTime Stat
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@master
+      - uses: athul/waka-readme@v0.1.7
         with:
           WAKATIME_API_KEY: waka_986a8e21-2809-4fa8-8316-8b31bd2477c5
           GITHUB_TOKEN: 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

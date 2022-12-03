@@ -12,8 +12,8 @@ jobs:
     steps:
       - uses: athul/waka-readme@v0.1.7
         with:
-          WAKATIME_API_KEY: waka_986a8e21-2809-4fa8-8316-8b31bd2477c5
-          GITHUB_TOKEN: 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
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           BRANCH: "master"
           COMMIT_MSG: "Automated Coding Activity Update :alien:"
           # Range of fetching data - default is "last_7_days". See https://wakatime.com/developers#stats for more options

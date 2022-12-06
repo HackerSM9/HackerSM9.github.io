@@ -1,4 +1,4 @@
 # HackerSM9.github.io
 
-<!--START_SECTION:waka-readme-->
-<!--END_SECTION:waka-readme-->
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->

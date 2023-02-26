@@ -85,6 +85,11 @@ textarea {
   border-radius: 30px;
 }
 
+.icon {
+  position: relative;
+  display: flexbox;
+}
+
 .fa {
   display: flex;
   color: #5008bd;

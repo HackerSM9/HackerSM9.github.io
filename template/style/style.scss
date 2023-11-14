@@ -156,12 +156,12 @@ $color-color: hsl(0, 0%, 100%);
 $color-html: hsl(15, 100%, 60%);
 $color-css: hsl(200, 100%, 60%);
 $color-scss: hsl(300, 100%, 60%);
-$color-node: hsl(110, 100%, 60%);
+$color-py: hsl(83, 83%, 50%);
 
 $porcent-html: 95;
 $porcent-css: 85;
 $porcent-scss: 70;
-$porcent-node: 30;
+$porcent-py: 30;
 
 @function strokeDashoffset($num) {
   @return 440 - (440 * $num) / 100;
@@ -218,8 +218,8 @@ $porcent-node: 30;
   &-scss {
     filter: drop-shadow(0 0 5px $color-scss);
   }
-  &-node {
-    filter: drop-shadow(0 0 5px $color-node);
+  &-py {
+    filter: drop-shadow(0 0 5px $color-py);
   }
 }
 
@@ -233,8 +233,8 @@ $porcent-node: 30;
   &-scss {
     animation: anim_circle-scss 1s ease-in-out forwards;
   }
-  &-node {
-    animation: anim_circle-node 1s ease-in-out forwards;
+  &-py {
+    animation: anim_circle-py 1s ease-in-out forwards;
   }
 }
 
